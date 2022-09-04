@@ -1,5 +1,8 @@
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/debelistic/project4/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/debelistic/project4/tree/main)
 
+## Project Summary
+
+In this project we diaplayed our understanding of deploying ML models using local environments and containers.
 
 ## Project Overview
 
@@ -49,3 +52,13 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+
+## Files and folder
+
+- `.circleci/`: this folder will enable ci/cd with circleci cloud platform
+- `model_data/`, `output_txt_files/`: contains the data to our model and output files
+- `app.py` is our ml script for prediction
+- `Dockerfile`: contains our docker script
+- `run_docker`: contains command to run our model in a docker container
+- `run_kubernetes`: contains command to run  our model in a k8s environments
